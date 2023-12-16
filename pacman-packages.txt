@@ -3,6 +3,7 @@ xdg-user-dirs
 picom
 neovim
 openbox
+polybar
 sxhkd
 stow
 wmctrl
