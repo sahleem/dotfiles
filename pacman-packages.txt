@@ -21,5 +21,6 @@ blanket
 zsh
 zsh-syntax-highlighting
 zsh-autosuggestions
+noto-fonts
 ttf-font-awesome
 otf-ipaexfont
