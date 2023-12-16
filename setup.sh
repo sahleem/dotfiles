@@ -12,6 +12,9 @@ sudo pacman -S $(cat install.txt)
 # change shell to ZSH
 chsh -s $(which zsh)
 
+# create default directories
+xdg-user-dirs-update
+
 # stow
 stow kitty
 stow openbox
