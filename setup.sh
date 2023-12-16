@@ -6,6 +6,10 @@ if [[ $(pwd) != "$HOME/dotfiles" ]]; then
 	exit 1
 fi
 
+# enable multilib
+sed -i '/^#\[multilib\]/s/^#//g' test.txt
+sed -i '/^\[multilib\]/{n;s/^#//}' test.txt
+
 # install requirements
 sudo pacman -S $(cat install.txt)
 
