@@ -25,5 +25,5 @@ stow kitty
 stow openbox
 stow polybar
 stow sxhkd
-#stow xinit
+stow xinit
 stow zsh
