@@ -1,0 +1,25 @@
+# program launcher
+alt + Return
+	kitty
+
+Super_L; @Super_L
+	rofi -show drun
+
+# wm
+alt + q
+	wmctrl -ic $(xdotool getwindowfocus)
+
+alt + m
+	wmctrl -ir $(xdotool getwindowfocus) -b add,maximized_vert,maximized_horz
+
+alt + 1
+	wmctrl -s 0
+
+alt + 2
+	wmctrl -s 1
+
+alt + 3
+	wmctrl -s 2
+
+alt + 4
+	wmctrl -s 3
