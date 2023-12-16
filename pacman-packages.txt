@@ -10,6 +10,7 @@ xdotool
 alsa-utils
 pavucontrol
 kitty
+python-pywal
 feh
 firefox
 ranger
