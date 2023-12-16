@@ -7,8 +7,8 @@ if [[ $(pwd) != "$HOME/dotfiles" ]]; then
 fi
 
 # enable multilib
-sed -i '/^#\[multilib\]/s/^#//g' test.txt
-sed -i '/^\[multilib\]/{n;s/^#//}' test.txt
+sed -i '/^#\[multilib\]/s/^#//g' /etc/pacman.conf
+sed -i '/^\[multilib\]/{n;s/^#//}' /etc/pacman.conf
 
 # install requirements
 sudo pacman -S $(cat install.txt)
