@@ -1,4 +1,5 @@
 xorg-xinit
+xdg-user-dirs
 neovim
 openbox
 sxhkd
