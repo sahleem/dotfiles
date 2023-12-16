@@ -9,6 +9,7 @@ fi
 # enable multilib
 sudo sed -i '/^#\[multilib\]/s/^#//g' /etc/pacman.conf
 sudo sed -i '/^\[multilib\]/{n;s/^#//}' /etc/pacman.conf
+sudo pacman -Syu
 
 # install requirements
 sudo pacman -S $(cat install.txt)
