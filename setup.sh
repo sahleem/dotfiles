@@ -22,6 +22,7 @@ xdg-user-dirs-update
 
 # stow
 stow kitty
+stow feh
 stow openbox
 stow polybar
 stow sxhkd
