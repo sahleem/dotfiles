@@ -1,4 +1,11 @@
+# background
 ~/.fehbg &
+
+# hotkeys
 sxhkd &
+
+# compositor
 picom &
+
+# bar
 polybar &

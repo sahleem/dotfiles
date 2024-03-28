@@ -21,6 +21,7 @@ chsh -s $(which zsh)
 xdg-user-dirs-update
 
 # stow
+stow picom
 stow kitty
 stow feh
 stow openbox

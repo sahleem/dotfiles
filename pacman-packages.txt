@@ -1,9 +1,11 @@
 xorg-xinit
 xdg-user-dirs
 picom
+man
 neovim
 openbox
 polybar
+rofi
 sxhkd
 stow
 wmctrl
