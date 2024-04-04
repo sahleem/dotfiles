@@ -877,6 +877,10 @@
     <application class="*">
 	    <decor>no</decor>
     </application>
+    <application role="PictureInPicture">
+      <layer>above</layer>
+      <desktop>all</desktop>
+    </application>
     <!-- <application name="kitty">
       <layer>above</layer>
     </application> -->
