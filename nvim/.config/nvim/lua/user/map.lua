@@ -1,4 +1,3 @@
-vim.g.mapleader = " "
 map = vim.keymap.set
 
 -- write and quit
@@ -6,7 +5,8 @@ map('n', 'q', ':q<CR>', {})
 map('n', 'w', ':w<CR>', {})
 
 -- file tree
-map("n", "<leader>b", vim.cmd.Ex)
+--map("n", "<leader>b", vim.cmd.Ex)
+map("n", "<leader>b", vim.cmd.NvimTreeToggle)
 
 -- clipboard attempt (not working)
 map("n", "<leader>y", "\"+y")

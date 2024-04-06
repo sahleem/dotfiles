@@ -19,10 +19,10 @@ set.undofile = true
 set.hlsearch = false
 set.incsearch = true
 
+set.signcolumn = "auto"
+
 -- set.termguicolors = true -- ?
 
 set.updatetime = 50 -- ?
-
--- set.colorcolumn = "80"
 
 gset.mapleader = " "
