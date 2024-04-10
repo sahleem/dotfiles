@@ -9,3 +9,6 @@ picom &
 
 # bar
 polybar &
+
+# dropbox
+zsh ~/.dropbox-dist/dropboxd &
