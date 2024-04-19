@@ -19,7 +19,7 @@ set.undofile = true
 set.hlsearch = false
 set.incsearch = true
 
-set.signcolumn = "auto"
+set.signcolumn = "no"
 
 -- set.termguicolors = true -- ?
 
