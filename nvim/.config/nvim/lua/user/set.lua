@@ -25,4 +25,6 @@ set.signcolumn = "no"
 
 set.updatetime = 50 -- ?
 
+set.backspace = "indent,start"
+
 gset.mapleader = " "
