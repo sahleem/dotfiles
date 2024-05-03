@@ -1,8 +1,8 @@
 map = vim.keymap.set
 
 -- write and quit
-map('n', 'q', ':q<CR>', {})
-map('n', 'w', ':w<CR>', {})
+--map('n', 'q', ':q<CR>', {})
+--map('n', 'w', ':w<CR>', {})
 
 -- file tree
 --map("n", "<leader>b", vim.cmd.Ex)
