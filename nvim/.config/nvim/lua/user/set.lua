@@ -21,7 +21,7 @@ set.incsearch = true
 
 set.signcolumn = "no"
 
--- set.termguicolors = true -- ?
+set.termguicolors = true
 
 set.updatetime = 50 -- ?
 
