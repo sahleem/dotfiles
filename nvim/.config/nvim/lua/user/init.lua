@@ -7,3 +7,6 @@ vim.g.loaded_netrwPlugin = 1
 
 -- empty setup using defaults
 require("nvim-tree").setup()
+
+-- colorscheme
+vim.cmd.colorscheme("habamax")
