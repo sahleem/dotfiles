@@ -6,3 +6,5 @@ My dotfiles
 - Install from separate script
 - NvimTree lock sideways movement
 - Nvim render whitespace
+- Add current directory to ZSH prompt
+- Change ZSH prompt color
