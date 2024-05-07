@@ -21,12 +21,12 @@ chsh -s $(which zsh)
 xdg-user-dirs-update
 
 # stow
-stow nvim
-stow picom
-stow kitty
-stow feh
-stow openbox
-stow polybar
-stow sxhkd
-stow xinit
-stow zsh
+ln -sf $PWD/nvim/* $PWD/..
+ln -sf $PWD/picom/* $PWD/..
+ln -sf $PWD/kitty/* $PWD/..
+ln -sf $PWD/feh/* $PWD/..
+ln -sf $PWD/openbox/* $PWD/..
+ln -sf $PWD/polybar/* $PWD/..
+ln -sf $PWD/sxhkd/* $PWD/..
+ln -sf $PWD/xinit/* $PWD/..
+ln -sf $PWD/zsh/* $PWD/..
