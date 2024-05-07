@@ -7,7 +7,6 @@ openbox
 polybar
 rofi
 sxhkd
-stow
 wmctrl
 xdotool
 alsa-utils
