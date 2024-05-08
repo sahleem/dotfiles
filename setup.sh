@@ -21,12 +21,12 @@ chsh -s $(which zsh)
 xdg-user-dirs-update
 
 # link config
-ln -sf $PWD/nvim/.* $PWD/..
-ln -sf $PWD/picom/.* $PWD/..
-ln -sf $PWD/kitty/.* $PWD/..
-ln -sf $PWD/feh/.* $PWD/..
-ln -sf $PWD/openbox/.* $PWD/..
-ln -sf $PWD/polybar/.* $PWD/..
-ln -sf $PWD/sxhkd/.* $PWD/..
-ln -sf $PWD/xinit/.* $PWD/..
-ln -sf $PWD/zsh/.* $PWD/..
+ln -sf $PWD/nvim $HOME/.config
+ln -sf $PWD/picom $HOME/.config
+ln -sf $PWD/kitty $HOME/.config
+ln -sf $PWD/feh $HOME/.config
+ln -sf $PWD/openbox $HOME/.config
+ln -sf $PWD/polybar $HOME/.config
+ln -sf $PWD/sxhkd $HOME/.config
+ln -sf $PWD/xinit/.* $HOME
+ln -sf $PWD/zsh/.* $HOME
