@@ -1,3 +1,4 @@
+xorg-server
 xorg-xinit
 xdg-user-dirs
 picom
