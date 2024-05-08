@@ -20,7 +20,7 @@ chsh -s $(which zsh)
 # create default directories
 xdg-user-dirs-update
 
-# stow
+# link config
 ln -sf $PWD/nvim/.* $PWD/..
 ln -sf $PWD/picom/.* $PWD/..
 ln -sf $PWD/kitty/.* $PWD/..
