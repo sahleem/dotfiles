@@ -1,5 +1,6 @@
 # dotfiles
-My dotfiles
+My dotfiles.  
+`setup.sh` assumes an Arch Linux minimal installation.
 
 ## TODO
 - :so and :PackerSync from setup.sh
