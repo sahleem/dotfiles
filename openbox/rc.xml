@@ -876,10 +876,12 @@
     -->
     <application class="*">
 	    <decor>no</decor>
+        <maximized>yes</maximized>
     </application>
     <application role="PictureInPicture">
       <layer>above</layer>
       <desktop>all</desktop>
+      <maximized>no</maximized>
     </application>
     <!-- <application name="kitty">
       <layer>above</layer>
