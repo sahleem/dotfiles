@@ -31,6 +31,6 @@ set.termguicolors = true
 
 set.updatetime = 50 -- ?
 
-set.backspace = "indent,start"
+set.backspace = "indent,start,eol"
 
 gset.mapleader = " "

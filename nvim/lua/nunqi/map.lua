@@ -28,3 +28,16 @@ map('i', '<C-A-j>', '<Esc>:m .+1<CR>==gi')
 map('i', '<C-A-k>', '<Esc>:m .-2<CR>==gi')
 map('v', '<C-A-j>', ":m '>+1<CR>gv=gv")
 map('v', '<C-A-k>', ":m '<-2<CR>gv=gv")
+
+-- telescope
+local builtin = require('telescope.builtin')
+map("n", "ff", builtin.find_files, {}) -- search file name
+map("n", "fs", function()
+	builtin.grep_string({ search = vim.fn.input("Grep > ") })
+end) -- search file with string
+
+-- fugitive
+map("n", "<leader>gs", vim.cmd.Git)
+
+-- undotree
+map("n", "<leader>u", vim.cmd.UndotreeToggle)
