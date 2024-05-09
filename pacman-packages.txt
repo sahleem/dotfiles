@@ -14,6 +14,7 @@ xdotool
 alsa-utils
 pavucontrol
 kitty
+imagemagick
 python-pywal
 npm
 unzip
