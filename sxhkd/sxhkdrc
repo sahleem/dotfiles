@@ -23,3 +23,6 @@ alt + 3
 
 alt + 4
 	wmctrl -s 3
+
+Print
+	flameshot screen
