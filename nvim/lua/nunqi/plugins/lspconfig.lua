@@ -20,7 +20,7 @@ return {
                 settings = {
                     Lua = {
                         runtime = { version = 'LuaJIT'},
-                        diagnostics = { globals = { 'vim' } },
+                        diagnostics = { globals = { 'vim', 'love' } },
                         workspace = { library = vim.env.VIMRUNTIME }
                     },
                 }
