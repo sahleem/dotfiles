@@ -37,6 +37,7 @@ alias grep='grep --color=auto'
 alias ls='ls --color'
 alias icat='kitty +kitten icat'
 alias open='xdg-open'
+alias icat='kitty +kitten icat'
 
 # bindkey
 bindkey '\e[A' history-beginning-search-backward
