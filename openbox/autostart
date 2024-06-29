@@ -1,14 +1,8 @@
 # background
 ~/.fehbg &
 
-# hotkeys
-sxhkd &
-
 # compositor
 picom &
 
 # bar
 polybar &
-
-# dropbox
-zsh ~/.dropbox-dist/dropboxd &
