@@ -1,8 +1,16 @@
 #!/bin/sh
 
 # check if path is correct
+# looks useless, but requires test to guarantee
 if [[ $(pwd) != "$HOME/dotfiles" ]]; then
 	echo "ERROR: invalid location"
+	exit 1
+fi
+
+# check for errors
+# TODO: also needs to check if theme exists
+if [[ $1 == "" ]]; then
+	echo "ERROR: no theme selected"
 	exit 1
 fi
 
@@ -19,6 +27,10 @@ chsh -s $(which zsh)
 
 # create default directories
 xdg-user-dirs-update
+
+# set Xresources
+xrdb $PWD/themes/$1
+ln -sf $PWD/themes/$1 $HOME/.Xresources
 
 # kitten color config from Xresources
 echo "" > $PWD/kitty/colors.conf
