@@ -20,6 +20,10 @@ chsh -s $(which zsh)
 # create default directories
 xdg-user-dirs-update
 
+# kitten color config from Xresources
+echo "" > $PWD/kitty/colors.conf
+xrdb -q | sed -e 's/*.//' -e 's/:*.#/ #/' $line >> $PWD/kitty/colors.conf
+
 # link config
 ln -sf $PWD/nvim/ $HOME/.config/
 ln -sf $PWD/picom/ $HOME/.config/

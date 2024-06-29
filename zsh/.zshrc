@@ -42,3 +42,4 @@ alias icat='kitty +kitten icat'
 # bindkey
 bindkey '\e[A' history-beginning-search-backward
 bindkey '\e[B' history-beginning-search-forward
+
