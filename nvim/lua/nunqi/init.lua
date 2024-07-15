@@ -1,5 +1,5 @@
 -- colorscheme
-vim.cmd.colorscheme("habamax")
+vim.cmd.colorscheme("sea-raccoon")
 
 -- options and keymaps
 require("nunqi.set")
