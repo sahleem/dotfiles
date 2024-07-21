@@ -29,6 +29,9 @@ map('i', '<C-A-k>', '<Esc>:m .-2<CR>==gi')
 map('v', '<C-A-j>', ":m '>+1<CR>gv=gv")
 map('v', '<C-A-k>', ":m '<-2<CR>gv=gv")
 
+-- terminal
+map("n", "<leader>t", ":sp | terminal<CR>")
+
 -- fugitive
 map("n", "<leader>gs", vim.cmd.Git)
 
