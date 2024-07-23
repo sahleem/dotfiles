@@ -34,3 +34,6 @@ fi
 
 # openbox
 exec openbox-session
+
+# background
+~/.fehbg &
