@@ -1,6 +1,6 @@
 # dotfiles
 My dotfiles.  
-`setup.sh` assumes an Arch Linux minimal installation.
+`setup.sh` assumes an Arch Linux minimal installation.  
 Firefox theme can be found [here](https://addons.mozilla.org/developers/addon/2858914/versions).
 
 ## TODO
