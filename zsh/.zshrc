@@ -35,6 +35,7 @@ RPROMPT=''
 # alias
 alias grep='grep --color=auto'
 alias ls='ls --color'
+alias py='python'
 alias icat='kitty +kitten icat'
 alias open='xdg-open'
 alias icat='kitty +kitten icat'
