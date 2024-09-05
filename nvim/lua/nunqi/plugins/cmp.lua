@@ -16,11 +16,10 @@ return {
                 { name = 'buffer' },
                 { name = 'path' },
             },
-            mapping = cmp.mapping.preset.insert({
-                ['<C-k>'] = cmp.mapping.select_prev_item(),
-                ['<C-j>'] = cmp.mapping.select_next_item(),
-                ['<C-Space>']  = cmp.mapping.confirm({ select = true })
-            }),
+            mapping = {
+                ['<S-Tab>'] = cmp.mapping.select_prev_item(),
+                ['<Tab>'] = cmp.mapping.select_next_item()
+            },
             snippet = {
                 expand = function(args)
                     require('luasnip').lsp_expand(args.body)
