@@ -6,6 +6,5 @@ Firefox theme can be found [here](https://addons.mozilla.org/developers/addon/28
 ## TODO
 - :so and :PackerSync from setup.sh
 - Install from separate script
-- NvimTree lock sideways movement
 - Add current directory to ZSH prompt
 - Change ZSH prompt color
