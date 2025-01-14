@@ -1,8 +1,2 @@
-# background
-~/.fehbg &
-
-# compositor
-picom &
-
 # bar
 polybar &
