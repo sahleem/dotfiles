@@ -38,9 +38,11 @@ alias ls='ls --color'
 alias py='python'
 alias icat='kitty +kitten icat'
 alias open='xdg-open'
-alias icat='kitty +kitten icat'
+alias cage='XKB_DEFAULT_LAYOUT=br cage -ds --'
+alias nv='nvim'
 
 # bindkey
 bindkey '\e[A' history-beginning-search-backward
 bindkey '\e[B' history-beginning-search-forward
+bindkey '^[[3~' delete-char
 
