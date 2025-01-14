@@ -4,6 +4,7 @@ xorg-xrdb
 xdg-user-dirs
 man
 neovim
+cage
 openbox
 polybar
 rofi
