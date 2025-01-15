@@ -18,7 +18,8 @@ return {
             },
             mapping = {
                 ['<S-Tab>'] = cmp.mapping.select_prev_item(),
-                ['<Tab>'] = cmp.mapping.select_next_item()
+                ['<Tab>'] = cmp.mapping.select_next_item(),
+                ['<CR>'] = cmp.mapping.confirm()
             },
             snippet = {
                 expand = function(args)
