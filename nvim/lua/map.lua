@@ -30,7 +30,7 @@ map('v', '<C-A-j>', ":m '>+1<CR>gv=gv")
 map('v', '<C-A-k>', ":m '<-2<CR>gv=gv")
 
 -- terminal
-map("n", "<leader>t", ":sp | terminal<CR>")
+map("n", "<leader>t", ":sp | terminal<CR>i")
 
 -- fugitive
 map("n", "<leader>gs", vim.cmd.Git)
