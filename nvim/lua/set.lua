@@ -4,6 +4,8 @@ local gset = vim.g
 set.nu = true
 set.relativenumber = true
 
+set.laststatus = 0
+
 set.tabstop = 4
 set.softtabstop = 4
 set.shiftwidth = 4
