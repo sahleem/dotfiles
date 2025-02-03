@@ -39,7 +39,6 @@ alias py='python'
 alias icat='kitty +kitten icat'
 alias open='xdg-open'
 alias cage='XKB_DEFAULT_LAYOUT=br cage -ds --'
-alias nv='nvim'
 
 # bindkey
 bindkey '\e[A' history-beginning-search-backward
