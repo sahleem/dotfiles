@@ -41,6 +41,7 @@ alias open='xdg-open'
 alias cage='XKB_DEFAULT_LAYOUT=br cage -ds --'
 alias dd='sudo dd bs=4M conv=fsync oflag=direct status=progress'
 alias asciidoctor='asciidoctor -r asciidoctor-pdf'
+alias clock='watch -t -n 1 date "+%H:%M:%S"'
 
 qemu-open() {
   qemu-system-x86_64 -enable-kvm -m 8G -drive file=$1,format=raw,if=virtio -device virtio-vga-gl -device virtio-sound-pci,audiodev=snd0 -audiodev alsa,id=snd0 -display sdl,gl=on -cpu host $2
