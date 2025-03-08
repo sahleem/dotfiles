@@ -44,7 +44,11 @@ alias asciidoctor='asciidoctor -r asciidoctor-pdf'
 alias clock='watch -t -n 1 date "+%H:%M:%S"'
 
 qemu-open() {
-  qemu-system-x86_64 -enable-kvm -m 8G -drive file=$1,format=raw,if=virtio -device virtio-vga-gl -device virtio-sound-pci,audiodev=snd0 -audiodev alsa,id=snd0 -display sdl,gl=on -cpu host $2
+  arch="x86_64"
+  if [ $# -gt 1 ]; then
+    arch="$2"
+  fi
+  qemu-system-$arch -enable-kvm -m 8G -drive file=$1,format=raw,if=virtio -device virtio-vga-gl -device virtio-sound-pci,audiodev=snd0 -audiodev alsa,id=snd0 -display sdl,gl=on -cpu host $2
 }
 
 # bindkey
