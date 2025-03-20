@@ -1,15 +1,6 @@
-xorg-server
-xorg-xinit
 xorg-xrdb
-xdg-user-dirs
 man
-neovim
-cage
-openbox
-polybar
 rofi
-wmctrl
-xdotool
 alsa-utils
 pavucontrol
 kitty

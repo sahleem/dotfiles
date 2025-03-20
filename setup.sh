@@ -25,9 +25,6 @@ sudo pacman -S $(cat pacman-packages.txt)
 # change shell to ZSH
 chsh -s $(which zsh)
 
-# create default directories
-xdg-user-dirs-update
-
 # set Xresources
 xrdb $PWD/themes/$1
 ln -sf $PWD/themes/$1 $HOME/.Xresources
