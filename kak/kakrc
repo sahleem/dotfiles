@@ -1,0 +1,32 @@
+# ty https://github.com/JJK96/kakoune-config/blob/master/kakrc
+
+# indent
+set-option global tabstop     4
+set-option global indentwidth 4
+
+# line numbers
+hook global BufCreate .* %[
+	add-highlighter buffer/ number-lines -relative -hlcursor
+	add-highlighter buffer/ wrap
+]
+
+# autopairs
+map global insert { {}<left>
+map global insert ( ()<left>
+map global insert [ []<left>
+map global insert \' \''<left>
+map global insert \" \""<left>
+
+# insert mode movement
+map global insert <c-h> <left>
+map global insert <c-j> <down>
+map global insert <c-k> <up>
+map global insert <c-l> <right>
+
+# clipboard
+map global user p -docstring 'paste from clipboard' ': paste<ret>'
+map global user y -docstring 'copy to clipboard' '<a-|>pbcopy<ret>'
+map global user d -docstring 'cut to clipboard' '|pbcopy<ret>'
+
+# editorconfig
+hook global WinCreate ^[^*]+$ %{editorconfig-load}
