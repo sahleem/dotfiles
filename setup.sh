@@ -44,4 +44,4 @@ ln -sf $PWD/kitty/ $HOME/.config/
 #ln -sf $PWD/polybar/ $HOME/.config/
 #ln -sf $PWD/sxhkd/ $HOME/.config/
 #ln -sf $PWD/xinit/.* $HOME/
-ln -sf $PWD/zsh/.* $HOME/
+#ln -sf $PWD/zsh/.* $HOME/
