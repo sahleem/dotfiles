@@ -43,7 +43,7 @@ window-rule {
 binds {
     Mod+A { show-hotkey-overlay; }
 
-    Mod+RETURN { spawn "kitty"; }
+    Mod+RETURN { spawn "foot"; }
     Mod+Z { spawn "fuzzel"; }
 
     Mod+Q { close-window; }
