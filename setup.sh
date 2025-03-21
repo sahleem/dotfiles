@@ -35,6 +35,8 @@ xrdb -q | sed -e 's/*.//' -e 's/:*.#/ #/' $line >> $PWD/kitty/colors.conf
 
 # link config
 ln -sf $PWD/nvim/ $HOME/.config/
+ln -sf $PWD/kak/ $HOME/.config/
+ln -sf $PWD/niri/ $HOME/.config/
 ln -sf $PWD/picom/ $HOME/.config/
 ln -sf $PWD/kitty/ $HOME/.config/
 ln -sf $PWD/feh/ $HOME/.config/
