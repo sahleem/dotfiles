@@ -34,14 +34,14 @@ echo "" > $PWD/kitty/colors.conf
 xrdb -q | sed -e 's/*.//' -e 's/:*.#/ #/' $line >> $PWD/kitty/colors.conf
 
 # link config
-ln -sf $PWD/nvim/ $HOME/.config/
+#ln -sf $PWD/nvim/ $HOME/.config/
 ln -sf $PWD/kak/ $HOME/.config/
 ln -sf $PWD/niri/ $HOME/.config/
-ln -sf $PWD/picom/ $HOME/.config/
+#ln -sf $PWD/picom/ $HOME/.config/
 ln -sf $PWD/kitty/ $HOME/.config/
-ln -sf $PWD/feh/ $HOME/.config/
-ln -sf $PWD/openbox/ $HOME/.config/
-ln -sf $PWD/polybar/ $HOME/.config/
-ln -sf $PWD/sxhkd/ $HOME/.config/
-ln -sf $PWD/xinit/.* $HOME/
+#ln -sf $PWD/feh/ $HOME/.config/
+#ln -sf $PWD/openbox/ $HOME/.config/
+#ln -sf $PWD/polybar/ $HOME/.config/
+#ln -sf $PWD/sxhkd/ $HOME/.config/
+#ln -sf $PWD/xinit/.* $HOME/
 ln -sf $PWD/zsh/.* $HOME/
