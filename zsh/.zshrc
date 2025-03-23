@@ -1,8 +1,10 @@
 # Created by newuser for 5.9
 
-HISTFILE=~/.zsh_history
+HISTFILE=${ZDOTDIR}/.zsh_history
 HISTSIZE=1000
 SAVEHIST=1000
+
+export LESSHISTFILE=-
 
 export PATH="${PATH}:/home/${USER}/.bin"
 
