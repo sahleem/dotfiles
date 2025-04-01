@@ -17,6 +17,13 @@ layout {
     focus-ring { off; }
 }
 
+cursor {
+	xcursor-theme "breeze_cursors"
+	xcursor-size 24
+	hide-when-typing
+	hide-after-inactive-ms 1000
+}
+
 spawn-at-startup "foot"
 
 prefer-no-csd
