@@ -11,6 +11,7 @@ zsh-autosuggestions
 
 # qemu
 qemu
+qemu-img
 qemu-system-x86_64
 qemu-ui-sdl
 qemu-audio-alsa
