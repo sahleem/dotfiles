@@ -1,3 +1,15 @@
+# base
+git
+kakoune
+niri
+cage
+editorconfig
+alsa-utils
+zsh
+zsh-syntax-highlighting
+zsh-autosuggestions
+
+# qemu
 qemu
 qemu-system-x86_64
 qemu-ui-sdl
@@ -8,3 +20,6 @@ qemu-hw-display-virtio-vga
 qemu-hw-display-virtio-vga-gl
 qemu-hw-display-virtio-gpu-pci
 qemu-hw-display-virtio-gpu-pci-gl
+
+# fonts
+font-ipa
