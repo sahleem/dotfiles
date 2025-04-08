@@ -24,9 +24,9 @@ map global insert <c-k> <up>
 map global insert <c-l> <right>
 
 # clipboard
-map global user p -docstring 'paste from clipboard' ': paste<ret>'
-map global user y -docstring 'copy to clipboard' '<a-|>pbcopy<ret>'
-map global user d -docstring 'cut to clipboard' '|pbcopy<ret>'
+map global user p -docstring 'paste from clipboard' '!wl-paste -n<ret>'
+map global user y -docstring 'copy to clipboard' '<a-|>wl-copy<ret>'
+map global user d -docstring 'cut to clipboard' '<a-|>wl-copy<ret>d'
 
 # editorconfig
 hook global WinCreate ^[^*]+$ %{editorconfig-load}

@@ -4,6 +4,7 @@ kakoune
 niri
 cage
 editorconfig
+wl-clipboard
 alsa-utils
 zsh
 zsh-syntax-highlighting
