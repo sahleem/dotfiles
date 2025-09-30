@@ -1,10 +1,8 @@
 # dotfiles
-My dotfiles.  
-`setup.sh` assumes an Arch Linux minimal installation.  
-Firefox theme can be found [here](https://addons.mozilla.org/developers/addon/2858914/versions).
+My dotfiles. Or a least an attempt.
 
 ## TODO
-- :so and :PackerSync from setup.sh
+- Decide on Alpine or Arch
 - Install from separate script
 - Add current directory to ZSH prompt
 - Change ZSH prompt color
