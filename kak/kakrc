@@ -32,4 +32,4 @@ map global user d -docstring 'cut to clipboard' '<a-|>wl-copy<ret>d'
 hook global WinCreate ^[^*]+$ %{editorconfig-load}
 
 # initial message
-set global startup_info_version 20221031
+set-option global startup_info_version 99999999
