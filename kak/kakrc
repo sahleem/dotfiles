@@ -6,7 +6,7 @@ set-option global indentwidth 4
 
 # line numbers
 hook global BufCreate .* %[
-	add-highlighter buffer/ number-lines -relative -hlcursor
+	add-highlighter buffer/ number-lines -relative -hlcursor -separator '  '
 	add-highlighter buffer/ wrap
 ]
 
@@ -30,3 +30,6 @@ map global user d -docstring 'cut to clipboard' '<a-|>wl-copy<ret>d'
 
 # editorconfig
 hook global WinCreate ^[^*]+$ %{editorconfig-load}
+
+# initial message
+set global startup_info_version 20221031
