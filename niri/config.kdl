@@ -2,7 +2,7 @@ input {
     keyboard {
         xkb {
             layout "br"
-            // options "grp:win_space_toggle,compose:ralt,ctrl:nocaps"
+            //options "grp:win_space_toggle,compose:ralt,ctrl:nocaps"
         }
     }
 }
@@ -10,7 +10,7 @@ input {
 layout {
     gaps 0
 
-    center-focused-column "always"
+    //center-focused-column "always"
 
     default-column-width {}
 
@@ -33,11 +33,6 @@ screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 animations { slowdown 0.5; }
 
 window-rule {
-    match app-id=r#"^org\.wezfurlong\.wezterm$"#
-    default-column-width {}
-}
-
-window-rule {
     match app-id=r#"firefox$"# title="^Picture-in-Picture$"
     open-floating true
 }
@@ -51,7 +46,7 @@ binds {
     Mod+A { show-hotkey-overlay; }
 
     Mod+RETURN { spawn "foot"; }
-    Mod+Z { spawn "fuzzel"; }
+    Mod+Z { spawn "wmenu-run"; }
 
     Mod+Q { close-window; }
 
@@ -65,15 +60,10 @@ binds {
     Mod+Ctrl+K     { move-column-to-workspace-up; }
     Mod+Ctrl+L     { move-column-right; }
 
-    Mod+1 { focus-workspace 1; }
-    Mod+2 { focus-workspace 2; }
-    Mod+3 { focus-workspace 3; }
-    Mod+4 { focus-workspace 4; }
-    Mod+5 { focus-workspace 5; }
-    Mod+6 { focus-workspace 6; }
-    Mod+7 { focus-workspace 7; }
-    Mod+8 { focus-workspace 8; }
-    Mod+9 { focus-workspace 9; }
+    //Mod+1 { focus-workspace 1; }
+    //Mod+2 { focus-workspace 2; }
+    //Mod+3 { focus-workspace 3; }
+    //Mod+4 { focus-workspace 4; }
 
     Mod+F { maximize-column; }
     Mod+Shift+F { fullscreen-window; }
