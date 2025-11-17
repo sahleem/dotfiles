@@ -51,8 +51,8 @@ binds {
     Mod+A { show-hotkey-overlay; }
 
     Mod+RETURN { spawn "foot"; }
-    Mod+Space { spawn "wmenu-run"; }
-	Mod+C { spawn-sh "foot watch -t -n 1 date '+%H:%M:%S'"; }
+    Mod+Space  { spawn "wmenu-run"; }
+	Mod+C      { spawn-sh "foot watch -t -n 1 date '+%H:%M:%S'"; }
 
     Mod+Q { close-window; }
 
@@ -71,7 +71,7 @@ binds {
     //Mod+3 { focus-workspace 3; }
     //Mod+4 { focus-workspace 4; }
 
-    Mod+F { maximize-column; }
+    Mod+F       { maximize-column; }
     Mod+Shift+F { fullscreen-window; }
 
     Mod+Minus { set-column-width "-10%"; }
@@ -80,9 +80,9 @@ binds {
     Mod+V       { toggle-window-floating; }
     Mod+Shift+V { switch-focus-between-floating-and-tiling; }
 
-    Print { screenshot; }
+    Print      { screenshot; }
     Ctrl+Print { screenshot-screen; }
-    Alt+Print { screenshot-window; }
+    Alt+Print  { screenshot-window; }
 
     Mod+Shift+E { quit; }
 }
