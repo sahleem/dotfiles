@@ -38,6 +38,11 @@ window-rule {
 }
 
 window-rule {
+    match app-id=r#"foot-popup$"#
+    open-floating true
+}
+
+window-rule {
     geometry-corner-radius 0
     clip-to-geometry true
 }
