@@ -6,7 +6,7 @@ set-option global indentwidth 4
 
 # line numbers
 hook global BufCreate .* %[
-	add-highlighter buffer/ number-lines -relative -hlcursor -separator '  '
+	add-highlighter buffer/ number-lines -hlcursor -separator '  '
 	add-highlighter buffer/ wrap
 ]
 
