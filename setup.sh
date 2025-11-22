@@ -11,7 +11,7 @@ sudo mkdir /etc/systemd/system/getty@tty1.service.d/
 sudo cp autologin.conf /etc/systemd/system/getty@tty1.service.d/
 
 # setup ZDOTDIR
-$CONFIG_DIR=$HOME/.config
+CONFIG_DIR=$HOME/.config
 sudo echo "export ZDOTDIR=$CONFIG_DIR" >> /etc/profile
 
 # link config
