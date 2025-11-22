@@ -14,5 +14,5 @@ sudo cp autologin.conf /etc/systemd/system/getty@tty1.service.d/
 ln -sf $PWD/kak/     $HOME/.config/
 ln -sf $PWD/niri/    $HOME/.config/
 ln -sf $PWD/foot/    $HOME/.config/
-ln -sf $PWD/fish/    $HOME/.config/
+#ln -sf $PWD/fish/    $HOME/.config/
 ln -sf $PWD/zsh/.*   $ZDOTDIR/
