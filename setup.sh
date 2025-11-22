@@ -10,9 +10,12 @@ chsh -s $(which zsh)
 sudo mkdir /etc/systemd/system/getty@tty1.service.d/
 sudo cp autologin.conf /etc/systemd/system/getty@tty1.service.d/
 
+# setup ZDOTDIR
+$CONFIG_DIR=$HOME/.config
+sudo echo "export ZDOTDIR=$CONFIG_DIR" >> /etc/profile
+
 # link config
-ln -sf $PWD/kak/     $HOME/.config/
-ln -sf $PWD/niri/    $HOME/.config/
-ln -sf $PWD/foot/    $HOME/.config/
-#ln -sf $PWD/fish/    $HOME/.config/
-ln -sf -t $HOME $PWD/zsh/.*
+ln -sf $PWD/kak/     $CONFIG_DIR/
+ln -sf $PWD/niri/    $CONFIG_DIR/
+ln -sf $PWD/foot/    $CONFIG_DIR/
+ln -sf $PWD/zsh/     $CONFIG_DIR/
