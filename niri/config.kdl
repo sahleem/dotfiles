@@ -50,9 +50,9 @@ window-rule {
 binds {
     Mod+A { show-hotkey-overlay; }
 
-    Mod+RETURN { spawn "foot"; }
-    Mod+Space  { spawn-sh "foot --app-id=foot-popup-launcher $(which fish)"; }
-	Mod+C      { spawn-sh "foot watch -t -n 1 date '+%H:%M:%S'"; }
+    Mod+RETURN { spawn "footclient"; }
+    Mod+Space  { spawn-sh "footclient --app-id=foot-popup-launcher $(which fish)"; }
+	Mod+C      { spawn-sh "footclient watch -t -n 1 date '+%H:%M:%S'"; }
 
     Mod+Q { close-window; }
 
