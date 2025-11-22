@@ -4,3 +4,6 @@ zsh/.zsh_history
 
 # neovim
 lazy-lock.json
+
+# kakoune
+*.kak.*
