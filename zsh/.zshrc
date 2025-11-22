@@ -30,10 +30,7 @@ RPROMPT=''
 alias grep='grep --color=auto'
 alias ls='ls --color'
 alias py='python'
-alias open='xdg-open'
 alias cage='XKB_DEFAULT_LAYOUT=br cage -ds --'
-alias dd='sudo dd bs=4M conv=fsync oflag=direct status=progress'
-alias asciidoctor='asciidoctor -r asciidoctor-pdf'
 alias clock='watch -t -n 1 date "+%H:%M:%S"'
 
 qemu-iso() {
