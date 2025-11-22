@@ -1,18 +1,5 @@
 # Created by newuser for 5.9
 
-XDG_CONFIG_HOME=$HOME/.config
-XDG_CACHE_HOME=$HOME/.cache
-XDG_DATA_HOME=$HOME/.local/share
-XDG_STATE_HOME=$HOME/.local/state
-
-HISTFILE=${ZDOTDIR}/.zsh_history
-HISTSIZE=1000
-SAVEHIST=1000
-
-export LESSHISTFILE=-
-
-export PATH="${PATH}:/home/${USER}/.bin"
-
 # autoload
 autoload -Uz compinit
 compinit
