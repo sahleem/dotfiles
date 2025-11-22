@@ -38,7 +38,7 @@ window-rule {
 }
 
 window-rule {
-    match app-id=r#"foot-popup$"#
+    match app-id=r#"foot-popup"#
     open-floating true
 }
 
@@ -51,7 +51,7 @@ binds {
     Mod+A { show-hotkey-overlay; }
 
     Mod+RETURN { spawn "foot"; }
-    Mod+Space  { spawn "wmenu-run"; }
+    Mod+Space  { spawn-sh "foot --app-id=foot-popup-launcher $(which fish)"; }
 	Mod+C      { spawn-sh "foot watch -t -n 1 date '+%H:%M:%S'"; }
 
     Mod+Q { close-window; }
