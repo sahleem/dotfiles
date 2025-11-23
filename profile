@@ -1,3 +1,4 @@
+
 # setup XDG_RUNTIME_DIR (required by wayland)
 #if [ -z "$XDG_RUNTIME_DIR" ]; then
 #    XDG_RUNTIME_DIR="/tmp/$(id -u)-runtime-dir"
