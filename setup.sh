@@ -15,4 +15,4 @@ CONFIG_DIR=$HOME/.config
 ln -sf $PWD/kak/     $CONFIG_DIR/
 ln -sf $PWD/niri/    $CONFIG_DIR/
 ln -sf $PWD/foot/    $CONFIG_DIR/
-ln -sf $PWD/fish/     $CONFIG_DIR/
+ln -sf $PWD/fish/    $CONFIG_DIR/
