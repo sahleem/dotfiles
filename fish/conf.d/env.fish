@@ -1,4 +1,3 @@
-set fish_greeting
 set -x EDITOR "kak"
 set -x XDG_CACHE_HOME "$HOME/.cache"
 set -x XDG_CONFIG_HOME "$HOME/.config"
