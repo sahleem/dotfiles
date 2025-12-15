@@ -26,7 +26,7 @@ stty stop undef
 
 # prompt
 #PROMPT='[ %~ ] ${vcs_info_msg_0_}> '
-PROMPT=' ${vcs_info_msg_0_}>¬ '
+PROMPT=' ${vcs_info_msg_0_}¬ '
 RPROMPT=''
 
 # alias
