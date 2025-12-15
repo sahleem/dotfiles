@@ -14,7 +14,7 @@ set -a
   HISTFILE="$XDG_STATE_HOME"/zsh/history
   LESSHISTFILE=-
 
-  # OTHERS
+  # others
   CARGO_HOME=$XDG_CONFIG_DIR/cargo
 set +a
 
