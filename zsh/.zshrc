@@ -1,13 +1,5 @@
 # Created by newuser for 5.9
 
-[ -d "$XDG_STATE_HOME"/zsh ] || mkdir -p "$XDG_STATE_HOME"/zsh
-[ -d "$XDG_CACHE_HOME"/zsh ] || mkdir -p "$XDG_CACHE_HOME"/zsh
-
-# hist
-HISTSIZE=1000
-SAVEHIST=1000
-HISTFILE="$XDG_STATE_HOME"/zsh/history
-
 # compinit
 autoload -Uz compinit
 compinit
@@ -34,7 +26,7 @@ stty stop undef
 
 # prompt
 #PROMPT='[ %~ ] ${vcs_info_msg_0_}> '
-PROMPT=' ${vcs_info_msg_0_}> '
+PROMPT=' ${vcs_info_msg_0_}>¬ '
 RPROMPT=''
 
 # alias
