@@ -1,3 +1,31 @@
+# export vars
+set -a
+  # XDG
+  XDG_CONFIG_HOME=$HOME/.config
+  XDG_CACHE_HOME=$HOME/.cache
+  XDG_DATA_HOME=$HOME/.local/share
+  XDG_STATE_HOME=$HOME/.local/state
+  [ -d "$XDG_STATE_HOME"/zsh ] || mkdir -p "$XDG_STATE_HOME"/zsh
+  [ -d "$XDG_CACHE_HOME"/zsh ] || mkdir -p "$XDG_CACHE_HOME"/zsh
+
+  # hist
+  HISTSIZE=1000
+  SAVEHIST=1000
+  HISTFILE="$XDG_STATE_HOME"/zsh/history
+  LESSHISTFILE=-
+
+  # OTHERS
+  CARGO_HOME=$XDG_CONFIG_DIR/cargo
+set +a
+
+# setup XDG_RUNTIME_DIR (required by wayland)
+if [ -z "$XDG_RUNTIME_DIR" ]; then
+    XDG_RUNTIME_DIR="/tmp/$(id -u)-runtime-dir"
+    mkdir -pm 0700 "$XDG_RUNTIME_DIR"
+    export XDG_RUNTIME_DIR
+fi
+
+# autostart compositor after login
 if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
   niri
 fi
