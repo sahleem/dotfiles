@@ -14,6 +14,10 @@ set -a
   HISTFILE="$XDG_STATE_HOME"/zsh/history
   LESSHISTFILE=-
 
+  # zsh comp
+  zstyle ':completion:*' cache-path "$XDG_CACHE_HOME"/zsh/zcompcache
+  compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-$ZSH_VERSION
+
   # others
   CARGO_HOME=$XDG_CONFIG_DIR/cargo
 set +a
