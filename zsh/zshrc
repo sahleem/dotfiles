@@ -32,6 +32,11 @@ qemu-iso() {
   qemu-system-x86_64 -enable-kvm -m 8G -drive file=$1,format=raw,if=virtio -device virtio-vga-gl -device virtio-sound-pci,audiodev=snd0 -audiodev alsa,id=snd0 -display sdl,gl=on -cpu host
 }
 
+l() {
+  (nohup "$@" > /dev/null 2> /dev/null &)
+  exit
+}
+
 # bindkey
 bindkey '\e[A' history-beginning-search-backward
 bindkey '\e[B' history-beginning-search-forward
