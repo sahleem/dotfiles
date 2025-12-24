@@ -7,6 +7,10 @@ input {
     }
 }
 
+output "DP-1" {
+	off
+}
+
 layout {
     gaps 0
 
