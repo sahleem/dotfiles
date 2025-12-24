@@ -5,7 +5,7 @@ niri
 cage
 editorconfig
 wl-clipboard
-alsa-utils
+wiremix
 zsh
 zsh-syntax-highlighting
 zsh-autosuggestions
