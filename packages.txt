@@ -1,4 +1,6 @@
-# base
+man
+otf-hermit
+otf-ipaexfont
 git
 kakoune
 niri
@@ -8,6 +10,3 @@ wiremix
 zsh
 zsh-syntax-highlighting
 zsh-autosuggestions
-
-# fonts
-otf-ipaexfont
