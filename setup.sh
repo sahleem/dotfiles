@@ -1,10 +1,7 @@
 #!/bin/sh
 
-# add apk packages
-#cat apk-packages.txt | sudo apk add
-
-# change shell to FISH
-chsh -s $(which fish)
+# change shell to ZSH
+chsh -s $(which zsh)
 
 # setup autologin
 sudo mkdir /etc/systemd/system/getty@tty1.service.d/
@@ -15,4 +12,4 @@ CONFIG_DIR=$HOME/.config
 ln -sf $PWD/kak/     $CONFIG_DIR/
 ln -sf $PWD/niri/    $CONFIG_DIR/
 ln -sf $PWD/foot/    $CONFIG_DIR/
-ln -sf $PWD/fish/    $CONFIG_DIR/
+#ln -sf $PWD/fish/    $CONFIG_DIR/
