@@ -1,0 +1,13 @@
+# base
+git
+kakoune
+niri
+editorconfig
+wl-clipboard
+wiremix
+zsh
+zsh-syntax-highlighting
+zsh-autosuggestions
+
+# fonts
+otf-ipaexfont
