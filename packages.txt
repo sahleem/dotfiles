@@ -1,3 +1,5 @@
+mesa
+vulkan-nouveau
 man
 otf-hermit
 otf-ipaexfont
