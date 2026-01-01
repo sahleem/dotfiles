@@ -27,7 +27,10 @@ alias ls='ls --color'
 alias py='python'
 alias cage='XKB_DEFAULT_LAYOUT=br cage -ds --'
 alias clock='watch -t -n 1 date "+%H:%M:%S"'
-alias favs='cat ~/fav/* | column -t -s "|" | fzy | awk "{ print \$NF }" | wl-copy'
+
+favs() {
+  cat $1 | column -t -s '|' | wmenu | awk '{ print $NF }' | wl-copy
+}
 
 qemu-iso() {
   qemu-system-x86_64 -enable-kvm -m 8G -drive file=$1,format=raw,if=virtio -device virtio-vga-gl -device virtio-sound-pci,audiodev=snd0 -audiodev alsa,id=snd0 -display sdl,gl=on -cpu host
