@@ -11,7 +11,7 @@ cp zsh/zprofile ~/.zprofile
 cp zsh/zshrc ~/.zshrc
 
 # setup autologin
-sudo mkdir /etc/systemd/system/getty@tty1.service.d/
+sudo mkdir -p /etc/systemd/system/getty@tty1.service.d/
 sudo cp autologin.conf /etc/systemd/system/getty@tty1.service.d/
 
 # link config
