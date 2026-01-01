@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # install packages
+sudo pacman -Syu
 sudo pacman -S $(cat packages.txt)
 
 # change shell to ZSH
