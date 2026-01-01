@@ -5,7 +5,7 @@ sudo pacman -Syu
 sudo pacman -S $(cat packages.txt)
 
 # change shell to ZSH
-chsh -s $(which zsh)
+[ "$SHELL" != "$(which zsh)" ] && chsh -s $(which zsh)
 
 # setup zsh
 cp zsh/zprofile ~/.zprofile
