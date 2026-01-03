@@ -1,6 +1,7 @@
 mesa
 vulkan-nouveau
 man
+man-pages
 otf-hermit
 otf-ipaexfont
 git
