@@ -29,7 +29,7 @@ alias cage='XKB_DEFAULT_LAYOUT=br cage -ds --'
 alias clock='watch -t -n 1 date "+%H:%M:%S"'
 
 favs() {
-  cat $1 | column -t -s '|' | sk | awk '{ print $NF }' | xargs xdg-open
+  cat $1 | column -t -s '|' | sk | awk '{ print $NF }' | wl-copy
 }
 
 qemu-iso() {
