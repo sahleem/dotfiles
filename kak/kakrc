@@ -1,14 +1,15 @@
-# ty https://github.com/JJK96/kakoune-config/blob/master/kakrc
-
 # indent
 set-option global tabstop     4
-set-option global indentwidth 4
+set-option global indentwidth 0
 
 # line numbers
-hook global BufCreate .* %[
-	add-highlighter buffer/ number-lines -relative -hlcursor -separator '  '
-	add-highlighter buffer/ wrap
-]
+add-highlighter global/ number-lines -relative -hlcursor -separator '  '
+
+# wrap
+add-highlighter global/ wrap -indent
+
+# show whitespaces
+add-highlighter global/ show-whitespaces -spc '' -lf '' -tab '>'
 
 # autopairs
 map global insert { {}<left>
