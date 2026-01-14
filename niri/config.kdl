@@ -57,7 +57,8 @@ binds {
     Mod+RETURN { spawn-sh "footclient -m"; }
     Mod+Space  { spawn-sh "footclient --app-id=foot-popup-launcher $SHELL"; }
 	Mod+C      { spawn-sh "footclient -W8x1 watch -t -n 1 date '+%H:%M:%S%n%a...%d'"; }
-	Mod+B      { spawn "firefox"; }
+	Mod+Ctrl+C { spawn-sh "foot -m -f Hermit:size=290 watch -t -n 1 date '+%H:%M:%S'"; }
+	Mod+B      { spawn    "firefox"; }
 
     Mod+Q { close-window; }
 
