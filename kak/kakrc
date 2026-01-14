@@ -9,7 +9,7 @@ add-highlighter global/ number-lines -relative -hlcursor -separator '  '
 add-highlighter global/ wrap -indent
 
 # show whitespaces
-#add-highlighter global/ show-whitespaces -spc '' -lf '' -tab '>'
+add-highlighter global/ show-whitespaces -spc '' -lf '' -tab '.'
 
 # autopairs
 map global insert { {}<left>
