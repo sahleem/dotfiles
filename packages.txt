@@ -1,5 +1,5 @@
-mesa
-vulkan-nouveau
+nvidia-open
+nvidia-utils
 man
 man-pages
 otf-hermit
@@ -7,9 +7,13 @@ otf-ipaexfont
 git
 kakoune
 niri
+foot
 editorconfig-core-c
 wl-clipboard
 wiremix
 zsh
 zsh-syntax-highlighting
 zsh-autosuggestions
+firefox
+steam
+discord
