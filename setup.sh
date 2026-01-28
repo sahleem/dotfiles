@@ -4,7 +4,7 @@
 sudo pacman -Syu $(cat packages.txt)
 
 # change shell to ZSH
-[ "$SHELL" != "$(which zsh)" ] && chsh -s $(which zsh)
+[ "$SHELL" != "$(command -v zsh)" ] && chsh -s $(command -v zsh)
 
 # setup zsh
 cp zsh/zprofile ~/.zprofile
@@ -16,6 +16,7 @@ sudo cp autologin.conf /etc/systemd/system/getty@tty1.service.d/
 
 # link config
 CONFIG_DIR=$HOME/.config
+mkdir -p $CONFIG_DIR
 ln -sf $PWD/kak/     $CONFIG_DIR/
 ln -sf $PWD/niri/    $CONFIG_DIR/
 ln -sf $PWD/foot/    $CONFIG_DIR/
