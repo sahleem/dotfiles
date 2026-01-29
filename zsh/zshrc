@@ -33,7 +33,7 @@ favs() {
 }
 
 qemu-iso() {
-  qemu-system-x86_64 -enable-kvm -m 8G -drive file=$1,format=raw,if=virtio -device virtio-vga-gl -device virtio-sound-pci,audiodev=snd0 -audiodev alsa,id=snd0 -display sdl,gl=on -cpu host
+  qemu-system-x86_64 -enable-kvm -m 8G -device virtio-vga-gl -device virtio-sound-pci,audiodev=snd0 -audiodev alsa,id=snd0 -display sdl,gl=on -cpu host -drive format=raw,if=virtio,file=$1
 }
 
 l() {
