@@ -32,7 +32,7 @@ favs() {
   cat $1 | column -t -s '|' | sk | awk '{ print $NF }' | wl-copy
 }
 
-qemu-iso() {
+qemudef() {
   qemu-system-x86_64 -enable-kvm -boot order=d -m 8G -device virtio-vga-gl -device virtio-sound-pci,audiodev=snd0 -audiodev alsa,id=snd0 -display sdl,gl=on -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -drive format=raw,if=virtio,file=$1
 }
 
