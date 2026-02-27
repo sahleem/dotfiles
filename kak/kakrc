@@ -12,11 +12,11 @@ add-highlighter global/ wrap -indent
 add-highlighter global/ show-whitespaces -spc '' -lf '' -tab '.'
 
 # autopairs
-map global insert { {}<left>
-map global insert ( ()<left>
-map global insert [ []<left>
-map global insert \' \''<left>
-map global insert \" \""<left>
+#map global insert { {}<left>
+#map global insert ( ()<left>
+#map global insert [ []<left>
+#map global insert \' \''<left>
+#map global insert \" \""<left>
 
 # insert mode movement
 map global insert <c-h> <left>
