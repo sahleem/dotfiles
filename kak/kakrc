@@ -1,6 +1,6 @@
 # indent
 #set-option global tabstop     4
-#set-option global indentwidth 0
+set-option global indentwidth 0
 
 # line numbers
 add-highlighter global/ number-lines -relative -hlcursor -separator '  '
