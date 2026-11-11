@@ -13,6 +13,6 @@ wiremix
 zsh
 zsh-syntax-highlighting
 zsh-autosuggestions
-firefox
+librewolf
 steam
 discord
