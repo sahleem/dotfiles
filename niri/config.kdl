@@ -37,7 +37,7 @@ screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 animations { slowdown 0.5; }
 
 window-rule {
-    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
+    match app-id=r#"librewolf$"# title="^Picture-in-Picture$"
     open-floating true
 }
 
@@ -58,7 +58,7 @@ binds {
     Mod+Space  { spawn-sh "footclient --app-id=foot-popup-launcher $SHELL"; }
 	Mod+C      { spawn-sh "footclient -W8x1 watch -t -n 1 date '+%H:%M:%S%n%a...%d'"; }
 	Mod+Ctrl+C { spawn-sh "foot -m -f Hermit:size=290 watch -t -n 1 date '+%H:%M:%S'"; }
-	Mod+B      { spawn    "firefox"; }
+	Mod+B      { spawn    "librewolf"; }
 
     Mod+Q { close-window; }
 
