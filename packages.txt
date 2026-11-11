@@ -15,4 +15,3 @@ zsh-syntax-highlighting
 zsh-autosuggestions
 librewolf
 steam
-discord
